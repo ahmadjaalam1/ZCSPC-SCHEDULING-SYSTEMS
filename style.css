@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Gorditas&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.app-form-header{
+    background-color: #CD4040;
+}
+
+.app-form-subheader{
+    background-color: #CC9801;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar{
+    background-color: #CC9801;
+}
+
+.login-header{
+    background-color: #CC9801;
+    color: white;
+}
+
+.form-logo,.nav-logo{
+    width: 60px;
+    height: 60px;
+}
+
+.app-type{
+    width: 500px;
+}
+
+#file-up-1{
+    display: none;
+}
+
+#file-up-preview{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.image-upload{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.preview{
+    margin: auto;
+}
+
+.birthday{
+    display: flex;
+}
+
+.first-page{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.landing-logo{
+    width: 80px;
+    height: 80px;
+}
+.app-header{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app-title{
+    display: flex;
+    align-items: center;
+}
+
+.app-title p{
+    font-family: 'Gorditas', cursive;
+    font-size: 24px;
+    color: #640100;
+}
+
+.custom-img{
+    position: relative;
+    margin-top: 100px;
+    z-index: 9999;
+}
+
+.description{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    height: 500px;
+    z-index: 99999;
+}
+
+#form{
+    z-index: 99999999;
+}
+
+#loginModal{
+    z-index: 9999999999;
+}
+
+.image{
+    font-size: 80px;
+}
+
+.count-card .count{
+    color: #CD4040;
+}
+
+
+.count-card:hover{
+    cursor: pointer;
+    background-color: #CD4040;
+    transition: 0.5s;
+    color: white;
+}
+
+.description{
+    text-align: justify;
+}
+
+.footer{
+    background-color: #640100;
+    color: white;
+}
+
+.footer ul.listunstyled li a{
+    color: white;
+}
+
+
+@media screen and(max-width:720px){
+    .firt-page{
+        background-color: red;
+    }
+    .wave{
+        display: none;
+    }
+}
